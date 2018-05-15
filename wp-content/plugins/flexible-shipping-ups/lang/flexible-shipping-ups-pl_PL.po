@@ -1,0 +1,790 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Shipping UPS\n"
+"POT-Creation-Date: 2018-01-04 10:51+0100\n"
+"PO-Revision-Date: 2018-01-04 11:41+0100\n"
+"Last-Translator: Piotr Jabłonowski <piotr.jablonowski@wpdesk.net>\n"
+"Language-Team: Maciej Swoboda <maciej.swoboda@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: flexible-shipping-ups.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/wpdesk\n"
+
+#: classes/flexible-shipping-ups-plugin.php:112
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/flexible-shipping-ups-plugin.php:113
+msgid "Docs"
+msgstr "Docs"
+
+#: classes/flexible-shipping-ups-plugin.php:114
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/flexible-shipping-ups-plugin.php:179
+msgid " (Fallback)"
+msgstr " (Stawka awaryjna)"
+
+#: classes/flexible-shipping-ups-plugin.php:207
+msgid ""
+"Flexible Shipping UPS requires at least version 2.6 of WooCommerce plugin."
+msgstr ""
+"Flexible Shipping UPS wymaga co najmniej wersji 2.6 wtyczki WooCommerce."
+
+#: classes/shipping-method.php:35 classes/shipping-method.php:51
+#: classes/shipping-method.php:56 classes/shipping-method.php:130
+msgid "UPS"
+msgstr "UPS"
+
+#: classes/shipping-method.php:44
+#, php-format
+msgid ""
+"The UPS extension obtains rates dynamically from the UPS API during cart/"
+"checkout. %sRefer to the instruction manual →%s"
+msgstr ""
+"Wtyczka UPS wyświetla dynamicznie stawki UPS w koszyku i podsumowaniu "
+"zamówienia. %sZobacz instrukcję konfiguracji →%s"
+
+#: classes/shipping-method.php:47
+msgid ""
+"The UPS extension obtains rates dynamically from the UPS API during cart/"
+"checkout."
+msgstr ""
+"Metoda UPS wyświetla dynamicznie stawki UPS w koszyku i podsumowaniu "
+"zamówienia."
+
+#: classes/shipping-method.php:123
+msgid "Method Settings"
+msgstr "Ustawienia metody"
+
+#: classes/shipping-method.php:127
+msgid "Method Title"
+msgstr "Tytuł metody"
+
+#: classes/shipping-method.php:129
+msgid ""
+"This controls the title which the user sees during checkout when fallback is "
+"used."
+msgstr ""
+"Tytuł metody zostanie wyświetlony klientowi podczas składania zamówienia "
+"jeśli zostanie zastosowana stawka awaryjna."
+
+#: classes/shipping-method.php:134 classes/shipping-method.php:141
+msgid "Services"
+msgstr "Usługi UPS"
+
+#: classes/shipping-method.php:135
+msgid "Enable services custom settings"
+msgstr "Włącz własne ustawienia usług"
+
+#: classes/shipping-method.php:137
+msgid ""
+"Enable if you want to select available services. By enabling a service, it "
+"does not guarantee that it will be offered, as the plugin will only offer "
+"the available rates based on the package weight, the origin and the "
+"destination."
+msgstr ""
+"Włącz jeśli chcesz wybrać dostępne usługi. Wybranie usługi nie oznacza, że "
+"będzie ona oferowana klientom. Wtyczka wyświetli tylko dostępne usługi na "
+"podstawie wagi paczki, adresu nadania i odbioru."
+
+#: classes/shipping-method.php:145
+msgid "Negotiated Rates"
+msgstr "Stawki negocjowane"
+
+#: classes/shipping-method.php:146
+msgid "Enable negotiated rates"
+msgstr "Włącz stawki negocjowane"
+
+#: classes/shipping-method.php:148
+msgid ""
+"Enable this option only if your shipping account has negotiated rates "
+"available."
+msgstr ""
+"Możesz włączyć tę opcję jeśli dla twojego konta dostępne są stawki "
+"negocjowane."
+
+#: classes/shipping-method.php:152
+msgid "Insurance"
+msgstr "Ubezpieczenie"
+
+#: classes/shipping-method.php:153
+msgid "Request insurance to be included in UPS rates"
+msgstr "Przesyłaj opcję ubezpieczenia"
+
+#: classes/shipping-method.php:155
+msgid ""
+"Enable if you want to include insurance in UPS rates when it is available."
+msgstr ""
+"Włącz opcję jeśli chcesz uwzględniać ubezpieczenie w stawkach UPS gdy jest "
+"dostępne."
+
+#: classes/shipping-method.php:159
+msgid "Fallback"
+msgstr "Stawka awaryjna"
+
+#: classes/shipping-method.php:160
+msgid "Enable fallback"
+msgstr "Włącz stawkę awaryjną"
+
+#: classes/shipping-method.php:162
+msgid ""
+"Enable to offer flat rate cost for shipping so that the user can still "
+"checkout, if UPS returns no matching rates."
+msgstr ""
+"Włącz aby oferować płaską stawkę wysyłki. Klient będzie mógł zrealizować "
+"zamówienia jeśli UPS nie zwróci żadnych usług."
+
+#: classes/shipping-method.php:166
+msgid "Fallback Cost"
+msgstr "Koszt stawki awaryjnej"
+
+#: classes/shipping-method.php:169
+msgid "Enter a numeric value with no currency symbols."
+msgstr "Wprowadź wartość bez symbolu waluty."
+
+#: classes/shipping-method.php:184
+msgid "API Settings"
+msgstr "Ustawienia API"
+
+#: classes/shipping-method.php:186
+#, php-format
+msgid ""
+"You need to obtain UPS account credentials by registering on their %swebsite "
+"→%s"
+msgstr ""
+"Musisz uzyskać dane dostępowe do konta UPS rejestrując się na %sstronie UPS →"
+"%s"
+
+#: classes/shipping-method.php:189
+msgid "UPS User ID"
+msgstr "Użytkownik"
+
+#: classes/shipping-method.php:194 classes/shipping-method.php:204
+#: classes/shipping-method.php:213 classes/shipping-method.php:222
+msgid "Provide your UPS account details."
+msgstr "Wprowadź dane konta UPS."
+
+#: classes/shipping-method.php:198
+msgid "UPS Password"
+msgstr "Hasło"
+
+#: classes/shipping-method.php:208
+msgid "UPS Access Key"
+msgstr "Klucz dostępu"
+
+#: classes/shipping-method.php:217
+msgid "UPS Account Number"
+msgstr "Numer konta"
+
+#: classes/shipping-method.php:226
+msgid "Origin Settings"
+msgstr "Adres nadania"
+
+#: classes/shipping-method.php:230
+msgid "Custom Origin"
+msgstr "Własny adres nadania"
+
+#: classes/shipping-method.php:231
+msgid "Enable custom origin"
+msgstr "Ustaw własny adres nadania"
+
+#: classes/shipping-method.php:233
+msgid ""
+"By default store address data from the WooCommerce settings are used as the "
+"origin."
+msgstr ""
+"Domyślnie adres nadania pobierany jest z ustawień adresu sklepu w "
+"WooCommerce w zakładce Ustawienia główne."
+
+#: classes/shipping-method.php:237
+msgid "Origin Address"
+msgstr "Ulica"
+
+#: classes/shipping-method.php:244
+msgid "Origin City"
+msgstr "Miasto"
+
+#: classes/shipping-method.php:251
+msgid "Origin Postcode"
+msgstr "Kod pocztowy"
+
+#: classes/shipping-method.php:258
+msgid "Origin Country"
+msgstr "Kraj"
+
+#: classes/shipping-method.php:266
+msgid "Advanced Options"
+msgstr "Opcje zaawansowane"
+
+#: classes/shipping-method.php:270
+msgid "Weight Unit"
+msgstr "Jednostki miary"
+
+#: classes/shipping-method.php:273
+msgid "LB"
+msgstr "funty"
+
+#: classes/shipping-method.php:274
+msgid "KG"
+msgstr "kg"
+
+#: classes/shipping-method.php:276
+msgid ""
+"By default store settings are used. If you see \"This measurement system is "
+"not valid for the selected country\" errors, switch units. Units in the "
+"store settings will be converted to units required by UPS."
+msgstr ""
+"Domyślnie pobierane są ustawienia sklepu. Zmień typ jednostek miary jeśli "
+"zobaczysz komunikat „This measurement system is not valid for the selected "
+"country”. Jednostki ustawione w sklepie zostaną przekonwertowane na "
+"jednostki miary wymagane przez UPS."
+
+#: classes/shipping-method.php:281
+msgid "Debug Mode"
+msgstr "Tryb debugowania"
+
+#: classes/shipping-method.php:282
+msgid "Enable debug mode"
+msgstr "Włącz tryb debugowania"
+
+#: classes/shipping-method.php:284
+msgid ""
+"Enable debug mode to display messages in the cart/checkout. Admins and shop "
+"managers will see all messages and data sent to UPS. The customer will only "
+"see messages from the UPS API."
+msgstr ""
+"Włącz tryb debugowania aby wyświetlać komunikaty w koszyku i podsumowaniu "
+"zamówienia. Administrator i manager sklepu zobaczy wszystkie komunikaty i "
+"dane przesyłane do UPS. Klient sklepu zobaczy tylko komunikaty zwracane "
+"przez API UPS."
+
+#: classes/shipping-method.php:288
+msgid "API Status"
+msgstr "Status połączenia API"
+
+#: classes/shipping-method.php:291
+msgid "Checking..."
+msgstr "Sprawdzanie…"
+
+#: classes/shipping-method.php:292
+msgid "If there are connection problems, you should see the error message."
+msgstr ""
+"Jeśli pojawią się problemy z połączeniem powinieneś zobaczyć komunikat błędu."
+
+#: classes/shipping-method.php:435
+msgid "No User ID or password entered."
+msgstr "Brak ID użytkownika lub hasła."
+
+#: classes/shipping-method.php:501
+#, php-format
+msgid "UPS API Request data: %s"
+msgstr "Przesłane żądanie do API UPS: %s"
+
+#: classes/shipping-method.php:505
+#, php-format
+msgid "UPS API Response: %s"
+msgstr "Odpowiedź API UPS: %s"
+
+#: classes/shipping-method.php:538
+msgid "UPS Fallback!"
+msgstr "Stawka awaryjna UPS!"
+
+#: classes/shipping-method.php:548
+msgid "UPS Fallback disabled!"
+msgstr "Stawka awaryjna UPS niedostępna!"
+
+#: classes/shipping-method.php:550
+#, php-format
+msgid "UPS Exception: %s"
+msgstr "Wyjątek UPS: %s"
+
+#: classes/shipping-method.php:578
+#, php-format
+msgid "Invalid UPS currency %s for service %s"
+msgstr "Nieprawidłowa waluta %s dla usługi %s UPS"
+
+#: classes/shipping-method.php:608
+#, php-format
+msgid "Unknown UPS service code %s."
+msgstr "Nieznany kod usługi UPS %s."
+
+#: classes/tracker.php:115
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: classes/tracker.php:119
+msgid "Opt-out"
+msgstr "Opt-out"
+
+#: classes/ups/constans.php:21
+msgid "UPS Worldwide Express Freight"
+msgstr "UPS Worldwide Express Freight"
+
+#: classes/ups/constans.php:22
+msgid "UPS Worldwide Express Freight Midday"
+msgstr "UPS Worldwide Express Freight Midday"
+
+#: classes/ups/constans.php:25 classes/ups/constans.php:48
+#: classes/ups/constans.php:56 classes/ups/constans.php:64
+#: classes/ups/constans.php:74
+msgid "UPS Express"
+msgstr "UPS Express"
+
+#: classes/ups/constans.php:26 classes/ups/constans.php:51
+#: classes/ups/constans.php:57 classes/ups/constans.php:65
+#: classes/ups/constans.php:77 classes/ups/constans.php:83
+msgid "UPS Standard"
+msgstr "UPS Standard"
+
+#: classes/ups/constans.php:27 classes/ups/constans.php:36
+#: classes/ups/constans.php:78 classes/ups/constans.php:85
+msgid "UPS Worldwide Expedited"
+msgstr "UPS Worldwide Expedited"
+
+#: classes/ups/constans.php:28 classes/ups/constans.php:38
+#: classes/ups/constans.php:58 classes/ups/constans.php:66
+#: classes/ups/constans.php:80 classes/ups/constans.php:86
+msgid "UPS Worldwide Express Plus"
+msgstr "UPS Worldwide Express Plus"
+
+#: classes/ups/constans.php:29 classes/ups/constans.php:39
+#: classes/ups/constans.php:59 classes/ups/constans.php:67
+#: classes/ups/constans.php:87
+msgid "UPS Worldwide Saver"
+msgstr "UPS Worldwide Saver"
+
+#: classes/ups/constans.php:32 classes/ups/constans.php:88
+msgid "UPS 2nd Day Air"
+msgstr "UPS 2nd Day Air"
+
+#: classes/ups/constans.php:33 classes/ups/constans.php:91
+msgid "UPS Ground"
+msgstr "UPS Ground"
+
+#: classes/ups/constans.php:34 classes/ups/constans.php:92
+msgid "UPS Next Day Air"
+msgstr "UPS Next Day Air"
+
+#: classes/ups/constans.php:35 classes/ups/constans.php:93
+msgid "UPS Next Day Air Early"
+msgstr "UPS Next Day Air Early"
+
+#: classes/ups/constans.php:37 classes/ups/constans.php:79
+#: classes/ups/constans.php:84
+msgid "UPS Worldwide Express"
+msgstr "UPS Worldwide Express"
+
+#: classes/ups/constans.php:42 classes/ups/constans.php:54
+#: classes/ups/constans.php:62 classes/ups/constans.php:73
+msgid "UPS Access Point Economy"
+msgstr "UPS Access Point Economy"
+
+#: classes/ups/constans.php:43
+msgid "UPS Today Dedicated Courrier"
+msgstr "UPS Today Dedicated Courrier"
+
+#: classes/ups/constans.php:44
+msgid "UPS Today Express"
+msgstr "UPS Today Express"
+
+#: classes/ups/constans.php:45
+msgid "UPS Today Express Saver"
+msgstr "UPS Today Express Saver"
+
+#: classes/ups/constans.php:46
+msgid "UPS Today Standard"
+msgstr "UPS Today Standard"
+
+#: classes/ups/constans.php:47 classes/ups/constans.php:55
+#: classes/ups/constans.php:63 classes/ups/constans.php:70
+msgid "UPS Expedited"
+msgstr "UPS Expedited"
+
+#: classes/ups/constans.php:49
+msgid "UPS Express Plus"
+msgstr "UPS Express Plus"
+
+#: classes/ups/constans.php:50 classes/ups/constans.php:71
+#: classes/ups/constans.php:76
+msgid "UPS Express Saver"
+msgstr "UPS Express Saver"
+
+#: classes/ups/constans.php:72 classes/ups/constans.php:90
+msgid "UPS 3 Day Select"
+msgstr "UPS 3 Day Select"
+
+#: classes/ups/constans.php:75
+msgid "UPS Express Early"
+msgstr "UPS Express Early"
+
+#: classes/ups/constans.php:89
+msgid "UPS 2nd Day Air A.M."
+msgstr "UPS 2nd Day Air A.M."
+
+#: classes/ups/constans.php:94
+msgid "UPS Next Day Air Saver"
+msgstr "UPS Next Day Air Saver"
+
+#: classes/ups/rating-rest-api.php:122
+#, php-format
+msgid "UPS API connection: %s"
+msgstr "Połączenia API UPS: %s"
+
+#: classes/ups/rating-rest-api.php:125
+#, php-format
+msgid "UPS API message: %s"
+msgstr "Komunikat API UPS: %s"
+
+#: classes/views/html-services.php:14
+msgid "Code"
+msgstr "Kod"
+
+#: classes/views/html-services.php:15
+msgid "Name"
+msgstr "Nazwa"
+
+#: classes/views/html-services.php:17
+msgid "Enabled"
+msgstr "Włączona"
+
+#: classes/views/html-services.php:17
+msgid "Enable all"
+msgstr "Włącz wszystkie"
+
+#: classes/views/html-services.php:37
+msgid ""
+"Drag and drop the services to control their display order. Confirm by "
+"clicking Save changes button below."
+msgstr ""
+"Przeciągnij i upuść usługę aby zmienić kolejność wyświetlania. Zatwierdź "
+"zmiany klikając Zapisz zmiany poniżej."
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:7
+#: inc/wpdesk-tracker/views/tracker-notice.php:5
+#: inc/wpdesk-tracker/views/tracker-notice.php:22
+#, php-format
+msgid "Hey %s,"
+msgstr "Hej %s,"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:8
+#: inc/wpdesk-tracker/views/tracker-notice.php:23
+msgid ""
+"Please help us improve our plugins! If you opt-in, we will collect some non-"
+"sensitive data and usage information. If you skip this, that's okay! All "
+"plugins will work just fine."
+msgstr ""
+"Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy "
+"zbierać niewrażliwe dane użytkowania. Jeśli pominiesz ten krok, w porządku! "
+"Wszystkie wtyczki będą działać."
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:13
+msgid "Allow & Continue &rarr;"
+msgstr "Pozwól i kontynuuj &rarr;"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:14
+msgid "Skip"
+msgstr "Pomiń"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:19
+msgid "What permissions are being granted?"
+msgstr "Jakie uprawnienia są przyznawane?"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:26
+msgid "Your Site Overview"
+msgstr "Dane witryny"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:27
+msgid "Site URL, WP version, PHP info, admin email"
+msgstr "URL strony, wersja WP, wersja PHP, email admina"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:33
+msgid "Plugin Usage"
+msgstr "Dane użytkowania wtyczek"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:34
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:40
+msgid "Your Store Overview"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:41
+msgid "Non-sensitive store usage information"
+msgstr "Tylko niewrażliwe dane o użytkowaniu sklepu"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:47
+msgid "Admin Updates"
+msgstr "Powiadomienia"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:48
+msgid "Announcements, updates, marketing, no spam and easy opt-out"
+msgstr ""
+"Ważne powiadomienia, uaktualnienia, marketing, żadnego spamu i łatwa "
+"rezygnacja"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:54
+#: inc/wpdesk-tracker/views/tracker-notice.php:24
+msgid "Find out more &raquo;"
+msgstr "Dowiedz się więcej &raquo;"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:3
+#, php-format
+msgid "You are deactivating %s plugin."
+msgstr "Dezaktywowałeś wtyczkę %s."
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:9
+msgid ""
+" If you have a moment, please let us know why you are deactivating plugin "
+"(anonymous feedback):"
+msgstr ""
+" Jeśli masz chwilę, prosimy daj nam znać dlaczego dezaktywowałeś wtyczkę "
+"(anonimowa opinia):"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:16
+msgid "The plugin suddenly stopped working"
+msgstr "Wtyczka nagle przestała działać"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:24
+msgid "The plugin broke my site"
+msgstr "Wtyczka zepsuła moją stronę"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:32
+msgid "I found a better plugin"
+msgstr "Znalazłem lepszą wtyczkę"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:35
+msgid "What's the plugin's name?"
+msgstr "Jaka jest nazwa wtyczki?"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:43
+msgid "I only needed the plugin for a short period"
+msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:51
+msgid "I no longer need the plugin"
+msgstr "Nie potrzebuję już wtyczki"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:59
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Jest to tymczasowa dezaktywacja, debaguję problem."
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:67
+msgid "Other"
+msgstr "Inny"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:70
+msgid "Kindly tell us the reason so we can improve"
+msgstr "Napisz nam powód abyśmy mogli go poprawić"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:77
+msgid "Skip &amp; Deactivate"
+msgstr "Pomiń i dezaktywuj"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:78
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:92
+msgid "Submit &amp; Deactivate"
+msgstr "Wyślij i dezaktywuj"
+
+#: inc/wpdesk-tracker/views/tracker-notice.php:8
+#, php-format
+msgid ""
+"We need your help to improve <strong>WP Desk plugins</strong>, so they are "
+"more useful for you and the rest of <strong>10,000+ users</strong>. By "
+"collecting data on how you use our plugins, you will help us a lot. We will "
+"not collect any sensitive data, so you can feel safe. As a thank you for "
+"your consent, we will send you a <strong>discount coupon</strong> for %sWP "
+"Desk plugins%s, which you can use yourself or share with others. %sFind out "
+"more &raquo;%s"
+msgstr ""
+"Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</"
+"strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych ponad "
+"<strong>10 000 użytkowników</strong>. Zbierając dane na temat tego jak "
+"korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy zbierać "
+"żadnych danych wrażliwych, więc możesz czuć się bezpiecznie. W zamian za "
+"Twoją zgodę otrzymasz <strong>kupon rabatowy</strong> na %swtyczki WP Desk"
+"%s, który możesz wykorzystać sam lub podzielić się z innymi. %sDowiedz się "
+"więcej &raquo;%s"
+
+#: inc/wpdesk-tracker/views/tracker-notice.php:16
+#: inc/wpdesk-tracker/views/tracker-notice.php:27
+msgid "Allow"
+msgstr "Pozwól"
+
+#: inc/wpdesk-tracker/views/tracker-opt-out-notice.php:3
+msgid ""
+"You successfully opted out of collecting usage data by WP Desk. If you "
+"change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+"Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk "
+"została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę poprzez "
+"szybkie linki w menu wtyczek."
+
+#. Plugin Name of the plugin/theme
+msgid "Flexible Shipping UPS"
+msgstr "Flexible Shipping UPS"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/flexible-shipping-ups/"
+msgstr "https://pl.wordpress.org/plugins/flexible-shipping-ups/"
+
+#. Description of the plugin/theme
+msgid "WooCommerce UPS Shipping Method and live rates."
+msgstr ""
+"Integracja WooCommerce z UPS, która umożliwia pobieranie rzeczywistych "
+"stawek przesyłki dla zamówień."
+
+#. Author of the plugin/theme
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#~ msgid ""
+#~ "The %s%s%s License Key has not been activated, so the plugin is inactive! "
+#~ "%sClick here%s to activate the license key and the plugin."
+#~ msgstr ""
+#~ "Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+#~ "nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#~ msgid "Settings updated."
+#~ msgstr "Ustawienia zostały zaktualizowane."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Zainstaluj wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Włącz wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid "Maximum cost"
+#~ msgstr "Maksymalny koszt"
+
+#~ msgid ""
+#~ "Set a maximum cost of shipping. This will override the costs configured "
+#~ "below."
+#~ msgstr ""
+#~ "Ustaw maksymalny koszt wysyłki. To nadpisze koszty ustawione w regułach."
+
+#~ msgid "Lowest cost"
+#~ msgstr "Najniższy koszt"
+
+#~ msgid "Highest cost"
+#~ msgstr "Najwyższy koszt"
+
+#~ msgid "Item"
+#~ msgstr "Sztuka"
+
+#~ msgid "Cart line item"
+#~ msgstr "Pozycja w koszyku"
+
+#~ msgid "All products"
+#~ msgstr "Wszystkie produkty"
+
+#~ msgid "Any class (must be set)"
+#~ msgstr "Dowolna klasa (musi być ustawiona)"
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a "
+#~ "href=„?” onclick=„document.location.reload(); return false;”>Spróbuj "
+#~ "ponownie</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Wystąpił nieznany błąd"
+
+#~ msgid "Ustawienia"
+#~ msgstr "Ustawienia"
+
+#~ msgid "Dokumentacja"
+#~ msgstr "Dokumentacja"
+
+#~ msgid "Wsparcie"
+#~ msgstr "Wsparcie"
+
+#~ msgid "Additional cost"
+#~ msgstr "Dodatkowy koszt"
+
+#~ msgid "Enter additional shipping cost based on the Value field."
+#~ msgstr "Wpisz dodatkowy koszt bazujący na polu Wartość."
+
+#~ msgid "Value"
+#~ msgstr "Wartość"
+
+#~ msgid "Value for additional cost."
+#~ msgstr "Wartość dodatkowego kosztu."
+
+#~ msgid "Shipping class"
+#~ msgstr "Klasa wysyłkowa"
+
+#~ msgid "Select shipping class that the rule applies to."
+#~ msgstr "Wybierz klasę wysyłkową, do której ma być stosowana reguła."
+
+#~ msgid "Stop"
+#~ msgstr "Zatrzymaj"
+
+#~ msgid "When this rule is matched stop calculating the following rules."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, zatrzymaj obliczanie kolejnych "
+#~ "reguł."
+
+#~ msgid "When this rule is matched do not show it in the checkout."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, nie pokazuj jej w zamówieniu."
+
+#~ msgid "Redirecting. If page not redirects click %s here %s."
+#~ msgstr ""
+#~ "Przekierowywanie. Jeśli strona nie przekierowuje cię automatycznie, "
+#~ "kliknij %s tu %s."
+
+#~ msgid ""
+#~ "Flexible Shipping PRO requires Flexible Shipping plugin. <a href=\"%s"
+#~ "\">Install Flexible Shipping →</a>"
+#~ msgstr ""
+#~ "Flexible Shipping PRO wymaga wtyczki Flexible Shipping. <a href=\"%s"
+#~ "\">Zainstaluj Flexible Shipping →</a>"
+
+#~ msgid ""
+#~ "Flexible Shipping PRO requires Flexible Shipping plugin. <a href=\"%s"
+#~ "\">Activate Flexible Shipping →</a>"
+#~ msgstr ""
+#~ "Flexible Shipping PRO wymaga wtyczki Flexible Shipping. <a href=\"%s"
+#~ "\">Włącz Flexible Shipping →</a>"
+
+#~ msgid ""
+#~ "Extends the free version of Flexible Shipping by adding advanced pro "
+#~ "features."
+#~ msgstr ""
+#~ "Rozszerza bezpłatną wersję Flexible Shipping poprzez dodanie "
+#~ "zaawansowanych ustawień."
